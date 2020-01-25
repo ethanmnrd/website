@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import headshot from "../img/ethanmaynard.jpg";
 
 export default function Home() {
   return (
     <div className="container">
-      <h1>Ethan Maynard</h1>
-      <p>
-        <Link to="/ethanmnrd">ethanmnrd</Link> on Github.
-      </p>
+      <h1>Meet Ethan.</h1>
+      <img className='circular' src={headshot} alt='Headshot'></img>
     </div>
   );
 }

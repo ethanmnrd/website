@@ -9,7 +9,7 @@ render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
-  document.querySelector("#root")
+  document.querySelector("#theme")
 );
 
 // If you want your app to work offline and load faster, you can change
