@@ -1,1 +1,1 @@
-In development for use. Will be deployed on AWS Amplify upon completion.
+Maintenance branch for placeholding.
