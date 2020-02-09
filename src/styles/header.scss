@@ -1,0 +1,44 @@
+
+.header {
+  height: 70px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  position: sticky;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  ul {
+    text-align: center;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    li {
+      display: inline-flex;
+      font-size: 18px;
+      a {
+        color: $text-medium;
+        text-decoration: none;
+        padding: 15px;
+        &:hover {
+          background-color: #f8f8f8;
+        }
+      }
+    }
+  }
+}

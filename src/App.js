@@ -6,26 +6,26 @@ import { Home, About, Projects } from "./pages";
 
 // Stylesheets
 import "./styles/App.scss";
-import pie from "./img/pie.png";
+import pyramid from "./img/pyramid.png";
 
 export default function App() {
   return (
     <div>
-      <div id="navigation">
-        <nav>
+      <div className="header">
+        <nav className="nav">
+          <div className="nav-container">
           <ul>
             <li>
-              <Link to="/">
-                <img className="logo" src={pie} alt="Pie!"></img><span>Ethan Maynard</span>
-              </Link>
+              <Link to="/"><img className="logo" src={pyramid} alt="Logo"></img></Link>
             </li>
             <li>
-              <Link to="/about">About Me</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
+          </div>
         </nav>
       </div>
       <div className="content">
